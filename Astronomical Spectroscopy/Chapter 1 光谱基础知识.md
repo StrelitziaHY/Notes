@@ -1,4 +1,4 @@
-#Chapter 1 光谱基础知识
+# Chapter 1 光谱基础知识
 
 > http://kiaa.pku.edu.cn/~jiang/teaching.html#teach=class2
 
@@ -6,7 +6,7 @@
 
 ## 热动平衡下的统计函数和统计方程
 
-全同近独立子系 $N,E,V$，能级 $\epsilon_1,\epsilon_2,\epsilon_3,\cdots$，简并度 $g_1,g_2,g_3,\cdots$，粒子数 $n_1,n_2,n_3,\cdots​$
+全同近独立子系 $N,E,V$，能级 $\epsilon_1,\epsilon_2,\epsilon_3,\cdots$，简并度 $g_1,g_2,g_3,\cdots$，粒子数 $n_1,n_2,n_3,\cdots$
 $$
 \sum_i n_i=N,\ \sum_in_i\epsilon_i=E
 $$
@@ -28,7 +28,7 @@ $$
   $$
   n_i=\frac{g_i}{e^{\alpha+\beta\epsilon_i}+1}
   $$
-  在经典极限下，$e^\alpha\gg1​$，三种分布等价
+  在经典极限下，$e^\alpha\gg1$，三种分布等价
 
 - 玻尔兹曼方程
   $$
@@ -43,7 +43,7 @@ $$
 
   定义广义坐标 $x,y,z,p_x,p_y,p_z$
 
-  $\mathrm{d}p_x\mathrm{d}p_y\mathrm{d}p_z​$ 内的粒子数
+  $\mathrm{d}p_x\mathrm{d}p_y\mathrm{d}p_z$ 内的粒子数
   $$
   f=\frac{V}{h^3}g_ie^{-\alpha-\beta\epsilon_i}\mathrm{d}p_x\mathrm{d}p_y\mathrm{d}p_z
   $$
@@ -96,7 +96,7 @@ $$
 $$
 T_B=\frac{c^2}{2\kappa}\frac{I_\nu(\mathrm{obs})}{\nu^2}
 $$
-$I_\nu​$ 是观测的辐射强度
+$I_\nu$ 是观测的辐射强度
 
 #### 激发温度
 
