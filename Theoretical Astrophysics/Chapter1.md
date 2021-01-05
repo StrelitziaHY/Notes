@@ -359,7 +359,7 @@ $$
   $$
   $\overline\chi$ 是以单色辐射流为权重，对频率加权的平均吸收系数 
 $$
-  \chi=\frac{\int^\infty_0\chi_\nu F_\nu\ce{d}\nu}{\int^\infty_0F_\nu\ce{d}\nu}
+  \chi=\frac{\int^\infty_0\chi_\nu F_\nu{d}\nu}{\int^\infty_0F_\nu{d}\nu}
   $$
   
   
@@ -386,7 +386,7 @@ $$
   $$
   B(T)=\int_0^\infty J_\nu\mathrm d\nu=J(\tau)
   $$
-  其中$J(\tau)=\int_0^\infin J_\nu\mathrm{d}\nu$为总平均辐射强度
+  其中$J(\tau)=\int_0^\infty  J_\nu\mathrm{d}\nu$为总平均辐射强度
   
   此时辐射转移方程：
   $$
