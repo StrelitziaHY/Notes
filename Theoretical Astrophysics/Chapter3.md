@@ -155,7 +155,7 @@ $$
      \stackrel{代入形式解}{\Longrightarrow} &= - 2 \int _ { \tau } ^ { \infty } \int _ { 0 } ^ { \pi / 2 } B _ { \nu } ^ { ( 1 ) } ( t ) e ^ { - ( t - \tau ) \sec \theta } \mathrm{d} \cos \theta \mathrm{d} t + 2 \int _ { 0 } ^ { \tau } \int _ { 0 } ^ { \pi / 2 } B _ {\nu} ^ { ( 1 ) } ( t ) e ^ { - ( \tau - t ) \sec \psi } \mathrm{d} \cos \psi \mathrm{d} t\\
      \stackrel{\mu=\cos\theta}{\Longrightarrow}& =2\int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t\\
      \stackrel { y = 1 / \mu } { \Longrightarrow }& = 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( t - \tau ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( \tau - t ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t\\
-     \stackrel { 引入记号 } { \Longrightarrow }&= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } \left\{ B _ { \nu } ^ { ( 1 ) } ( t ) \right\}
+      { \Longrightarrow }&= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } \left\{ B _ { \nu } ^ { ( 1 ) } ( t ) \right\}
      \end{align}
      $$
 
