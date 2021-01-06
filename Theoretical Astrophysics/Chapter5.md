@@ -635,11 +635,9 @@ $$
     $$
     再考虑没有扰动粒子的概率
     $$
-   
     W^* ( r + \text{d} r )= W ^ { * } ( r ) (1-W ( r , r + \text{d} r ))\\
     \Rightarrow \frac { \text{d} W ^ { * } ( r ) } { W ^ { * } ( r ) } = - W ( r , r + \text{d} r ) = - 4 \pi N r ^ { 2 } d r\\
-    \Rightarrow W ^ { * } ( r ) =  e ^ { - \frac { 4 \pi } { 3 } N r ^ { 3 } },\text{where }W^*(0)=1 
- 
+    \Rightarrow W ^ { * } ( r ) =  e ^ { - \frac { 4 \pi } { 3 } N r ^ { 3 } },where W^*(0)=1 
     $$
 
   - 代入 $P ( r ) \text{d} r $ 表达式得到
