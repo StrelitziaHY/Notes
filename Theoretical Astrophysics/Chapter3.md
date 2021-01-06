@@ -137,7 +137,7 @@ $$
 
      $q(\tau)$ 随光深缓慢、单调、平滑增加，爱丁顿近似下 $q(\tau)\equiv2/3$ ——非常稳的近似 
      $$
-     \frac { T } { T _ { \mathrm { eff } } } = \left\{ \frac { 3 } { 4 } \left [  \tau + q ( \tau ) \right ] \right\} ^ { 1 / 4 } = f ( \tau )
+     \frac { T } { T _ { { eff } } } = \left\{ \frac { 3 } { 4 } \left [  \tau + q ( \tau ) \right ] \right\} ^ { 1 / 4 } = f ( \tau )
      $$
      局部热动平衡假设下源函数由普朗克函数给出
      $$
