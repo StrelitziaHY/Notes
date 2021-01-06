@@ -153,7 +153,7 @@ $$
      F _ { \nu } ^ { ( 1 ) } = \frac { 1 } {  \pi } \int _ { 4 \pi } I _ { \nu }^{(1)} ({ \theta } ) \cos  { \theta } \mathrm{d} { \omega }=2\int _ { 0 \leq \theta \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \cos \theta \sin \theta \mathrm{d} \theta - 2 \int _ { 0 \leq \psi \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \cos ( \psi ) \sin ( \psi ) \mathrm{d} \psi \\
      \stackrel{代入形式解}{\Longrightarrow} = - 2 \int _ { \tau } ^ { \infty } \int _ { 0 } ^ { \pi / 2 } B _ { \nu } ^ { ( 1 ) } ( t ) e ^ { - ( t - \tau ) \sec \theta } \mathrm{d} \cos \theta \mathrm{d} t + 2 \int _ { 0 } ^ { \tau } \int _ { 0 } ^ { \pi / 2 } B _ {\nu} ^ { ( 1 ) } ( t ) e ^ { - ( \tau - t ) \sec \psi } \mathrm{d} \cos \psi \mathrm{d} t\\
      \stackrel{\mu=\cos\theta}{\Longrightarrow} =2\int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t\\
-     \stackrel { y = 1 / \mu } { \Longrightarrow }& = 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( t - \tau ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( \tau - t ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t\\
+     \stackrel { y = 1 / \mu } { \Longrightarrow } = 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( t - \tau ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( \tau - t ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t\\
       { \Longrightarrow }= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } { B _ { \nu } ^ { ( 1 ) } ( t ) }
      $$
 
@@ -306,7 +306,7 @@ $$
 
        爱丁顿近似下，零光深边界上有：
        $$
-       \left. \begin{array} { c } { J = \frac { 1 } { 2 } \left( I _ { 1 } + I _ { 2 } \right) } \\ { H = \frac { 1 } { 4 } \left( I _ { 1 } - I _ { 2 } \right) } \end{array} \right\} \Rightarrow ( J ) _ { \tau = 0 } = { I _ { 2 } ( 0 ) = 0 } 2 ( H ) _ { \tau = 0 } =  \frac { 1 } { 2 } ( F ) _ { \tau = 0 }
+       \left. \begin{array} { c } { J = \frac { 1 } { 2 } \left( I _ { 1 } + I _ { 2 } \right) }  { H = \frac { 1 } { 4 } \left( I _ { 1 } - I _ { 2 } \right) } \end{array} \right\} \Rightarrow ( J ) _ { \tau = 0 } = { I _ { 2 } ( 0 ) = 0 } 2 ( H ) _ { \tau = 0 } =  \frac { 1 } { 2 } ( F ) _ { \tau = 0 }
        $$
 
        $$
