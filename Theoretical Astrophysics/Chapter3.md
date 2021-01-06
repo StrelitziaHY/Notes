@@ -150,13 +150,11 @@ $$
 
      利用辐射转移方程的形式解，得到等价灰大气的辐射流
      $$
-     \begin{align}
-     F _ { \nu } ^ { ( 1 ) } &= \frac { 1 } {  \pi } \int _ { 4 \pi } I _ { \nu }^{(1)} ({ \theta } ) \cos  { \theta } \mathrm{d} { \omega }=2\int _ { 0 \leq \theta \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \cos \theta \sin \theta \mathrm{d} \theta - 2 \int _ { 0 \leq \psi \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \cos ( \psi ) \sin ( \psi ) \mathrm{d} \psi \\
-     \stackrel{代入形式解}{\Longrightarrow} &= - 2 \int _ { \tau } ^ { \infty } \int _ { 0 } ^ { \pi / 2 } B _ { \nu } ^ { ( 1 ) } ( t ) e ^ { - ( t - \tau ) \sec \theta } \mathrm{d} \cos \theta \mathrm{d} t + 2 \int _ { 0 } ^ { \tau } \int _ { 0 } ^ { \pi / 2 } B _ {\nu} ^ { ( 1 ) } ( t ) e ^ { - ( \tau - t ) \sec \psi } \mathrm{d} \cos \psi \mathrm{d} t\\
-     \stackrel{\mu=\cos\theta}{\Longrightarrow}& =2\int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t\\
+     F _ { \nu } ^ { ( 1 ) } = \frac { 1 } {  \pi } \int _ { 4 \pi } I _ { \nu }^{(1)} ({ \theta } ) \cos  { \theta } \mathrm{d} { \omega }=2\int _ { 0 \leq \theta \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \cos \theta \sin \theta \mathrm{d} \theta - 2 \int _ { 0 \leq \psi \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \cos ( \psi ) \sin ( \psi ) \mathrm{d} \psi \\
+     \stackrel{代入形式解}{\Longrightarrow} = - 2 \int _ { \tau } ^ { \infty } \int _ { 0 } ^ { \pi / 2 } B _ { \nu } ^ { ( 1 ) } ( t ) e ^ { - ( t - \tau ) \sec \theta } \mathrm{d} \cos \theta \mathrm{d} t + 2 \int _ { 0 } ^ { \tau } \int _ { 0 } ^ { \pi / 2 } B _ {\nu} ^ { ( 1 ) } ( t ) e ^ { - ( \tau - t ) \sec \psi } \mathrm{d} \cos \psi \mathrm{d} t\\
+     \stackrel{\mu=\cos\theta}{\Longrightarrow} =2\int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t\\
      \stackrel { y = 1 / \mu } { \Longrightarrow }& = 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( t - \tau ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( \tau - t ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t\\
-      { \Longrightarrow }&= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } \left\{ B _ { \nu } ^ { ( 1 ) } ( t ) \right\}
-     \end{align}
+      { \Longrightarrow }= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } \left\{ B _ { \nu } ^ { ( 1 ) } ( t ) \right\}
      $$
 
      只能用数值积分，其中 $E_2(x)$ 是 $E _ { m } ( x ) \equiv \int _ { 1 } ^ { \infty } e ^ { - x y } y ^ { - m } \mathrm{d} y$ 在 $m=2$ 时的情形，而作用算符$\Phi_\tau$ ：
@@ -234,14 +232,12 @@ $$
    - 平均单色辐射强度的第一次近似 (做法很接近求钱德拉塞卡吸收系数那一块)：
 
    $$
-   \begin{align}
    J _ {\nu} ^ { ( 1 ) } &= \frac { 1 } { 4 \pi } \int _ { 4 \pi } I _ { \nu } ^ { ( 1 ) } d \omega = \frac {1} { 2 } \int _ { 0 \leq \theta \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \sin \theta \mathrm{d} \theta + \frac { 1} {2 } \int _ { 0 \leq \psi \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \sin \psi \mathrm{d} \psi\\
-   &=\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t\\
+  =\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t\\
    \stackrel { y = 1 / \mu } { \Longrightarrow }&=\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | \tau - t | y } } { y } \mathrm{d} y \right] \mathrm{d} t \quad(*)\\
-   &= \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) E _ { 1 } ( |t - \tau | ) \mathrm{d} t \\
-   &\equiv \Lambda _ { \tau } \left\{ B _ {\nu} ^ { ( 1 ) } ( t ) \right\} 
+   = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) E _ { 1 } ( |t - \tau | ) \mathrm{d} t \\
+   \equiv \Lambda _ { \tau } \left\{ B _ {\nu} ^ { ( 1 ) } ( t ) \right\} 
    = \Lambda _ { \tau } \left\{ S _ {\nu} ^ { ( 1 ) }\right\}
-   \end{align}
    $$
 
    >  $(*)$ 行出现绝对值是因为在第一项中，$t$ 取 $\tau$ 到 $\infty$，$t-\tau$ 必然大于零，可加上绝对值；第二项中 $t$ 取 $0$ 到 $\tau$，$\tau-t$ 必然大于零，可加上绝对值
