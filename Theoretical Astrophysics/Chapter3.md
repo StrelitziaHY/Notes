@@ -447,7 +447,7 @@ $$
 
 - 一系列计算后
   $$
-  - \left( 1 - \frac { 1 } { \gamma } \right) \frac { T } { P } \frac { \mathrm{d} P } { \mathrm{d} r } > - \frac { \mathrm{d} T } { \mathrm{d} r }
+  - \left( 1 - \frac { 1 } { \gamma } \right) \frac { T } { P } \frac { {d} P } { \mathrm{d} r } > - \frac { {d} T } { {d} r }
   $$
 
 - 左边是绝热的温度梯度，右边是辐射的温度梯度，记为
