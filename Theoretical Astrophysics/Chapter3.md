@@ -220,7 +220,7 @@ $$
 
    利用钱德拉塞卡近似+ Stefan-Boltzmann 定律：
    $$
-   B ( \tau ) = \frac { 3 } { 4 } F [ \tau + q ( \tau ) ]\Rightarrow\frac { T } { T _ { \mathrm{eff} } } = \left[ \frac { B ( \tau ) } { F } \right] ^ { 1 / 4 } = \left\{ \frac { 3 } { 4 } [ \tau + q ( \tau ) ] \right\} ^ { 1 / 4 } = f ( \tau )
+   B ( \tau ) = \frac { 3 } { 4 } F [ \tau + q ( \tau ) ]\Rightarrow\frac { T } { T _ { \mathrm{eff} } } = \left[ \frac { B ( \tau ) } { F } \right] ^ { 1 / 4 } = { \frac { 3 } { 4 } [ \tau + q ( \tau ) ] } ^ { 1 / 4 } = f ( \tau )
    $$
 
    - 局部热动平衡下黑体辐射分布和源函数的第一次近似 $\left( u = h\nu/ k T _ { \mathrm { eff } } \right)$：
@@ -232,9 +232,9 @@ $$
    - 平均单色辐射强度的第一次近似 (做法很接近求钱德拉塞卡吸收系数那一块)：
 
    $$
-   J _ {\nu} ^ { ( 1 ) } &= \frac { 1 } { 4 \pi } \int _ { 4 \pi } I _ { \nu } ^ { ( 1 ) } d \omega = \frac {1} { 2 } \int _ { 0 \leq \theta \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \sin \theta \mathrm{d} \theta + \frac { 1} {2 } \int _ { 0 \leq \psi \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \sin \psi \mathrm{d} \psi\\
+   J _ {\nu} ^ { ( 1 ) } = \frac { 1 } { 4 \pi } \int _ { 4 \pi } I _ { \nu } ^ { ( 1 ) } d \omega = \frac {1} { 2 } \int _ { 0 \leq \theta \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \sin \theta \mathrm{d} \theta + \frac { 1} {2 } \int _ { 0 \leq \psi \leq \pi / 2 } I _ { \nu } ^ { ( 1 ) } \sin \psi \mathrm{d} \psi\\
   =\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t\\
-   \stackrel { y = 1 / \mu } { \Longrightarrow }&=\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | \tau - t | y } } { y } \mathrm{d} y \right] \mathrm{d} t \quad(*)\\
+   \stackrel { y = 1 / \mu } { \Longrightarrow }=\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | \tau - t | y } } { y } \mathrm{d} y \right] \mathrm{d} t \quad(*)\\
    = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) E _ { 1 } ( |t - \tau | ) \mathrm{d} t \\
    \equiv \Lambda _ { \tau } { B _ {\nu} ^ { ( 1 ) } ( t ) } 
    = \Lambda _ { \tau } { S _ {\nu} ^ { ( 1 ) }}
