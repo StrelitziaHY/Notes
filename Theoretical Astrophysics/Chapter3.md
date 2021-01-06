@@ -145,7 +145,7 @@ $$
      $$
 
      $$
-     u=\frac{h\nu}{kT_{\mathrm{eff}}}
+     u=\frac{h\nu}{kT_{{eff}}}
      $$
 
      利用辐射转移方程的形式解，得到等价灰大气的辐射流
@@ -154,7 +154,7 @@ $$
      \stackrel{代入形式解}{\Longrightarrow} = - 2 \int _ { \tau } ^ { \infty } \int _ { 0 } ^ { \pi / 2 } B _ { \nu } ^ { ( 1 ) } ( t ) e ^ { - ( t - \tau ) \sec \theta } \mathrm{d} \cos \theta \mathrm{d} t + 2 \int _ { 0 } ^ { \tau } \int _ { 0 } ^ { \pi / 2 } B _ {\nu} ^ { ( 1 ) } ( t ) e ^ { - ( \tau - t ) \sec \psi } \mathrm{d} \cos \psi \mathrm{d} t\\
      \stackrel{\mu=\cos\theta}{\Longrightarrow} =2\int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \mathrm{d} \mu \right] \mathrm{d} t\\
      \stackrel { y = 1 / \mu } { \Longrightarrow }& = 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( t - \tau ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - ( \tau - t ) y } } { y ^ { 2 } } \mathrm{d} y \right] \mathrm{d} t\\
-      { \Longrightarrow }= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } \left\{ B _ { \nu } ^ { ( 1 ) } ( t ) \right\}
+      { \Longrightarrow }= 2 \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) E_2(t-\tau) \mathrm{d} t - 2 \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t )E_2(-t+\tau)  \mathrm{d} t\equiv{ \Phi } _ { \tau } { B _ { \nu } ^ { ( 1 ) } ( t ) }
      $$
 
      只能用数值积分，其中 $E_2(x)$ 是 $E _ { m } ( x ) \equiv \int _ { 1 } ^ { \infty } e ^ { - x y } y ^ { - m } \mathrm{d} y$ 在 $m=2$ 时的情形，而作用算符$\Phi_\tau$ ：
@@ -236,8 +236,8 @@ $$
   =\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( t - \tau ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 0 } ^ { 1 } e ^ { - ( \tau - t ) / \mu } \frac { \mathrm{d} \mu } { \mu } \right] \mathrm{d} t\\
    \stackrel { y = 1 / \mu } { \Longrightarrow }&=\frac { 1 } { 2 } \int _ { \tau } ^ { \infty } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t + \frac { 1 } { 2 } \int _ { 0 } ^ { \tau } B _ { \nu } ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | \tau - t | y } } { y } \mathrm{d} y \right] \mathrm{d} t \quad(*)\\
    = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) \left[ \int _ { 1 } ^ { \infty } \frac { e ^ { - | t - \tau | y } } { y } \mathrm{d} y \right] \mathrm{d} t = \frac { 1 } { 2 } \int _ { 0 } ^ { \infty } B _ {\nu} ^ { ( 1 ) } ( t ) E _ { 1 } ( |t - \tau | ) \mathrm{d} t \\
-   \equiv \Lambda _ { \tau } \left\{ B _ {\nu} ^ { ( 1 ) } ( t ) \right\} 
-   = \Lambda _ { \tau } \left\{ S _ {\nu} ^ { ( 1 ) }\right\}
+   \equiv \Lambda _ { \tau } { B _ {\nu} ^ { ( 1 ) } ( t ) } 
+   = \Lambda _ { \tau } { S _ {\nu} ^ { ( 1 ) }}
    $$
 
    >  $(*)$ 行出现绝对值是因为在第一项中，$t$ 取 $\tau$ 到 $\infty$，$t-\tau$ 必然大于零，可加上绝对值；第二项中 $t$ 取 $0$ 到 $\tau$，$\tau-t$ 必然大于零，可加上绝对值
@@ -257,7 +257,7 @@ $$
    - 再用 $\Lambda _ { \tau }$ 算符作用于第二近似下的源函数，得到第二近似下的平均辐射强度：
 
 $$
-   J _ {\nu} ^ { ( 1 ) }=\Lambda _ { \tau } \left\{ S _ {\nu} ^ { ( 1 ) }\right\}
+   J _ {\nu} ^ { ( 1 ) }=\Lambda _ { \tau } { S _ {\nu} ^ { ( 1 ) }}
 $$
 
    以此类推，万世不竭
@@ -271,7 +271,7 @@ $$
    - 先计算单色辐射流的第一近似：
 
    $$
-   F _ { \nu } ^ { ( 1 ) } ( \tau ) = \Phi _ { \tau } \left\{ B _ { \nu } ^ { ( 1 ) } ( t ) \right\}
+   F _ { \nu } ^ { ( 1 ) } ( \tau ) = \Phi _ { \tau } { B _ { \nu } ^ { ( 1 ) } ( t ) }
    $$
 
    - 在每一个深度对单色辐射流全频率积分，得到总辐射流的第一近似 $\pi F^{(1)}$，一般不等于给定的 $\pi F$
