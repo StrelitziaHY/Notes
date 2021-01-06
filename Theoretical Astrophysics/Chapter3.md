@@ -306,7 +306,7 @@ $$
 
        爱丁顿近似下，零光深边界上有：
        $$
-       \left. \begin{array} { c } { J = \frac { 1 } { 2 } \left( I _ { 1 } + I _ { 2 } \right) }  { H = \frac { 1 } { 4 } \left( I _ { 1 } - I _ { 2 } \right) } \end{array} } \Rightarrow ( J ) _ { \tau = 0 } = { I _ { 2 } ( 0 ) = 0 } 2 ( H ) _ { \tau = 0 } =  \frac { 1 } { 2 } ( F ) _ { \tau = 0 }
+        { J = \frac { 1 } { 2 } \left( I _ { 1 } + I _ { 2 } \right) } \\ { H = \frac { 1 } { 4 } \left( I _ { 1 } - I _ { 2 } \right) }  \Rightarrow ( J ) _ { \tau = 0 } = { I _ { 2 } ( 0 ) = 0 } 2 ( H ) _ { \tau = 0 } =  \frac { 1 } { 2 } ( F ) _ { \tau = 0 }
        $$
 
        $$
