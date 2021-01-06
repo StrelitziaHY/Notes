@@ -145,7 +145,7 @@ $$
      $$
 
      $$
-     u=\frac{h\nu}{kT_{{eff}}}
+     u=\frac{h\nu}{kT_{eff}}
      $$
 
      利用辐射转移方程的形式解，得到等价灰大气的辐射流
@@ -306,7 +306,7 @@ $$
 
        爱丁顿近似下，零光深边界上有：
        $$
-       \left. \begin{array} { c } { J = \frac { 1 } { 2 } \left( I _ { 1 } + I _ { 2 } \right) } \\ { H = \frac { 1 } { 4 } \left( I _ { 1 } - I _ { 2 } \right) } \end{array} \right\} \Rightarrow ( J ) _ { \tau = 0 } \xlongequal { I _ { 2 } ( 0 ) = 0 } 2 ( H ) _ { \tau = 0 } =  \frac { 1 } { 2 } ( F ) _ { \tau = 0 }
+       \left. \begin{array} { c } { J = \frac { 1 } { 2 } \left( I _ { 1 } + I _ { 2 } \right) } \\ { H = \frac { 1 } { 4 } \left( I _ { 1 } - I _ { 2 } \right) } \end{array} \right\} \Rightarrow ( J ) _ { \tau = 0 } = { I _ { 2 } ( 0 ) = 0 } 2 ( H ) _ { \tau = 0 } =  \frac { 1 } { 2 } ( F ) _ { \tau = 0 }
        $$
 
        $$
