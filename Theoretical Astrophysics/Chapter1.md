@@ -420,10 +420,8 @@ $$
 
 - 由 Stefan-Boltzmann 定律
   $$
-  \begin{align}
-  \pi B&=\sigma T^4\\
-  \pi F&=\sigma T_{eff}^4
-\end{align}
+  \pi B=\sigma T^4\\
+  \pi F=\sigma T_{eff}^4
   $$
   前一个公式根据黑体辐射函数$B_\nu(T)$对频率、空间积分得到，$\pi B$是温度的函数，在恒星内部随真实温度$T$有一个分布：
   $$
