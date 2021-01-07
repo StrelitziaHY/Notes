@@ -185,7 +185,7 @@ $\chi_\nu=-\frac{\mathrm{d}I_\nu}{\rho I_\nu\mathrm{d}s}$ 表征辐射通过单�
 
 在密度为$\rho$介质中取一块高为$\mathrm{ds}$的圆柱体薄片，令强度为$I_\nu$光线**垂直**进入，能量会发生改变，改变量等于体积元发射与吸收之差（发射系数$j_\nu$，而吸收系数为$\chi_\nu$）：
 $$
-\frac{\mathrm{d}I_\nu}{\mathrm{d}s}=(I_\nu\chi_\nu-j_\nu)\rho
+\frac{\mathrm{d}I_\nu}{\mathrm{d}s}=-(I_\nu\chi_\nu-j_\nu)\rho
 $$
 - 恒星大气层厚度远小于恒星半径——<u>平面平行层</u>近似（最常用，太阳光球层仅为太阳半径的 0.04%）
 
