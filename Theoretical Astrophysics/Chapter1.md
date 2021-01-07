@@ -413,7 +413,7 @@ $$
 
 - $\tau=0$ 时没有传入的辐射，$I_2(0)=0$ 
   $$
-  J(0)=\frac{1}{2}I_1(0),\ H=\frac{1}{4}I_1(0),\\
+  J(0)=\frac{1}{2}I_1(0),\ H=H(0)=\frac{1}{4}I_1(0),\\
   K(0)=\frac{1}{3}J(0)=\frac{2}{3}H\\
   \Rightarrow K=\left(\tau+\frac{2}{3}\right)H,\ J=\left(3\tau+2\right)H
   $$
