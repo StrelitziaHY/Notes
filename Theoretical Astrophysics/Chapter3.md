@@ -574,6 +574,10 @@ $$
   $$
   \begin{align*} \mathrm{d} ( \ln \rho ) & = \mathrm{d}( \ln P ) - \mathrm{d} ( \ln T ) + \mathrm{d} ( \ln \mu ) = \mathrm{d} ( \ln P ) - \mathrm{d}( \ln T ) + \left( \frac { \partial \ln \mu } { \partial \ln T } \right) \mathrm{d} ( \ln T ) \\ & = \mathrm{d} ( \ln P ) - \left( 1 - \frac { \partial \ln \mu } { \partial \ln T } \right) \mathrm{d} ( \ln T ) = \mathrm{d} ( \ln P ) - Q \mathrm{d} ( \ln T ) \end{align*}
   $$
+  
+  $$
+  Q\equiv 1- \left ( \frac{\partial \ln_{}{\mu } }{\partial \ln_{}{T} }  \right ) _{P} 
+  $$
   其中因为在压力平衡下 $δP = 0$，浮力为
   $$
   \begin{align*} f _ { b } & = - g \delta \rho = g Q \rho \frac { \delta T } { T } = \frac { g Q \rho } { T } \left[ \left( - \frac { d T } { d r } \right) - \left( - \frac { d T } { d r } \right) _ { E } \right] \Delta r \\ & = \frac { g Q \rho } { T } \left( \frac { T } { H } \nabla - \frac { T } { H } \nabla _ { E } \right) \Delta r = \frac { g Q \rho } { H } \left( \nabla - \nabla _ { E } \right) \Delta r \end{align*}
