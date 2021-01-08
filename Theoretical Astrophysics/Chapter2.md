@@ -369,7 +369,7 @@ $$
 $$
 可以看出带头频率处吸收系数最大，然后按 $\nu^{-3}$ 衰减；同一频率，$n$ 越大，吸收系数越小
 
-$g_n$ 为Gaunt因子：
+$g_n^ { \prime } $ 为Gaunt因子：
 $$
 g _ { n } ^ { \prime } = 1 - 0.1728 \left( \frac { v } { c R _ { \infty } Z ^ { 2 } } \right) ^ { 1 / 3 } \left( \frac { 2 c R _ { \infty } Z ^ { 2 } } { n ^ { 2 } v } - 1 \right) \sim1
 $$
