@@ -281,7 +281,7 @@ $$
 $$
 
 $$
-I _ { \nu } = \frac { A _ { k i } } { B _ { k i } } \frac { 1 } { e ^ { - \left( \varepsilon _ { i } - \varepsilon _ { k } \right) / k T } - 1 }=\frac{ 2 h \nu ^ { 3 } / c ^ { 2 } } {e ^ { - h \nu / k T } - 1}
+I _ { \nu } = \frac { A _ { k i } } { B _ { k i } } \frac { 1 } { e ^ { - \left( \varepsilon _ { i } - \varepsilon _ { k } \right) / k T } - 1 }=\frac{ 2 h \nu ^ { 3 } / c ^ { 2 } } {e ^ { h \nu / k T } - 1}
 $$
 
 $$
