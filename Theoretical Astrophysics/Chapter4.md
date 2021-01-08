@@ -210,7 +210,8 @@
   H_{ \nu } = \frac{\left( I _ { \nu } \right) _ { \tau _ { \nu } ^ { \sigma } } } {\left[ 4 \left( 1 + \frac { 3 } { 4 } \tau _ { \nu } ^ { \sigma } \right) \right]}
   $$
   
-  在表面上 $H_{\nu}=\frac{(I_\nu)_{\tau_{\nu}^{\sigma}}}{4} $
+  在表面上  
+  $H_{\nu}=\frac{(I_{\nu})_{\tau_{\nu}^{\sigma}}}{4}$
 
 - 累积辐射剩余强度
   $$
