@@ -346,7 +346,7 @@ $$
 $$
 
 $$
-k _ { \nu } ^ { ( s ) }= -\frac{\mathrm{d} I _ { \nu } ^ { ( s ) }}{ \mathrm{d} h}I _ { \nu }  N _ { s }
+k _ { \nu } ^ { ( s ) }= -\frac{\mathrm{d} I _ { \nu } ^ { ( s ) }}{I _ { \nu }  N _ { s } \mathrm{d} h}
 $$
 
 与散射截面同量纲
