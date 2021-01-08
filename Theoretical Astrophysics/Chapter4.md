@@ -204,9 +204,9 @@
   I _ { \nu } + I _ { \nu } ^ { \prime } = 6 H _ { \nu } \tau _ { \nu } + 4H _ { \nu }
   $$
 
-- 引入反变层在 $\nu$ 处因选择散射引起的光深 $\tau^\sigma_\nu$ ，反变层底部由光球发出，进入反变层的平均辐射强度 $( I ) _ { \tau ^ { \sigma }_\nu }$ 
+- 引入反变层在 $\nu$ 处因选择散射引起的光深 $\tau^\sigma_\nu$ ，反变层底部由光球发出，进入反变层的平均辐射强度 $I_ { \tau ^ { \sigma }_\nu }$ 
   $$
-  H _ { \nu } = \frac{\left( I _ { \nu } \right) _ { \tau _ { \nu } ^ { \sigma } } } {\left[ 4 \left( 1 + \frac { 3 } { 4 } \tau _ { \nu } ^ { \sigma } \right) \right]}
+  H_{ \nu } = \frac{\left( I _ { \nu } \right) _ { \tau _ { \nu } ^ { \sigma } } } {\left[ 4 \left( 1 + \frac { 3 } { 4 } \tau _ { \nu } ^ { \sigma } \right) \right]}
   $$
   在表面上 $H_\nu=(I_\nu)_{\tau_\nu^\sigma}/4$
 
