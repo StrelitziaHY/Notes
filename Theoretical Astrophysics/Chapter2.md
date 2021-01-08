@@ -395,7 +395,11 @@ $$
 $$
 
 $$
-S _ { e } = \frac { 8 \pi } { 3 } \left( \frac { e ^ { 2 } } { m _ { e } c ^ { 2 } } \right) ^ { 2 } = \frac { 8 } { 3 } \pi r _ { e } ^ { 2 } = 6.65 \times 10 ^ { - 25 } \mathrm { cm } ^ { 2 } \\ \sigma _{e} = S _ { e } / m _ { p } = 0.40\ \mathrm { cm } ^ { 2 } / \mathrm { g }
+S _ { e } = \frac { 8 \pi } { 3 } \left( \frac { e ^ { 2 } } { m _ { e } c ^ { 2 } } \right) ^ { 2 } = \frac { 8 } { 3 } \pi r _ { e } ^ { 2 } = 6.65 \times 10 ^ { - 25 } \mathrm { cm } ^ { 2 }  
+$$
+
+$$
+\sigma _{e} = S _ { e } / m _ { p } = 0.40\ \mathrm { cm } ^ { 2 } / \mathrm { g }
 $$
 
 散射截面与波长无关，等同地散射各个波长的辐射（在高温恒星大气中, O/B stars）
