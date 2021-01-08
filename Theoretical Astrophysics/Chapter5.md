@@ -316,7 +316,7 @@ $$
 
 - 恒星表面任一点 $(x,y,z)$ 的视向速度
   $$
-  v_z=\vec{e}_{z} \cdot (\vec\Omega\times \vec R)=\vec\Omega\cdot \left ( \vec R\times \vec e_{z} \right ) =-x\Omega\sin{i}\equiv-\frac{x}{R}v_{eq}\sin i
+  v_z=\vec{e} _ {z} \cdot (\vec\Omega\times \vec R)=\vec\Omega\cdot \left ( \vec R\times \vec e _ {z} \right ) =-x\Omega\sin{i}\equiv-\frac{x}{R}v_{eq}\sin i
   $$
 
 - 对应的多普勒位移（取恒星半径为单位长度）
