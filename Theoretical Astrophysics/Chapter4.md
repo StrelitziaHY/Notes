@@ -213,7 +213,7 @@
   在表面上
   
   $$
-  H_{\nu}=\frac{(I_{\nu})_{\tau_{\nu}^{\sigma}}}{4}
+H_{\nu}=\frac{\left ( I_{\nu} \right ) _{\tau_{\nu}^{\sigma}}}{4} 
   $$
 
 - 累积辐射剩余强度
