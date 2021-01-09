@@ -20,6 +20,6 @@
 ——by 小风吹
 
 感谢刘畅的笔记.
-基于MathJax在线Latex插件使用的需要，修改了少数代码.
+出于MathJax在线Latex插件使用的需要，修改了少数代码；订正了少数错误.
 
 ——by Strelitzia
