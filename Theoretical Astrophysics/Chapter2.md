@@ -221,7 +221,7 @@ $$
 
   对数形式：
 $$
-  \lg \frac { N _ { r + 1 } } { N _ { r } } = \lg \frac { 2 u _ { r + 1 } ( T ) } { u _ { r } ( T ) } + \frac { 5 } { 2 } \lg T - \frac { 5040 } { T } \chi _ { r } - \lg p _ { e } + \lg \frac { \left( 2 \pi m _ { e } \right) ^ { 3 / 2 } k ^ { 5 / 2 } } { h ^ { 3 } } ( = 0.48 )
+  \lg \frac { N _ { r + 1 } } { N _ { r } } = \lg \frac { 2 u _ { r + 1 } ( T ) } { u _ { r } ( T ) } + \frac { 5 } { 2 } \lg T - \frac { 5040 } { T } \chi _ { r } - \lg p _ { e } + \lg \frac { \left( 2 \pi m _ { e } \right) ^ { 3 / 2 } k ^ { 5 / 2 } } { h ^ { 3 } } ( = - 0.48 )
 $$
 
 
