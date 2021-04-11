@@ -49,7 +49,7 @@
 
 - 最重要：**自旋磁矩**和**电子轨道运动**产生的磁场的相互作用
   $$
-  {\mu}_{s}=-2 \frac{\mu_{{B}}}{\hbar} {s}, { where } \mu_{{B}}=\frac{e \hbar}{2 m_{e}}
+  \mu_{s}=-2 \frac{\mu_{{B}}}{\hbar} {s}, { where } \mu_{{B}}=\frac{e \hbar}{2 m_{e}}
   $$
 
 ### 电子轨道运动产生的磁场
