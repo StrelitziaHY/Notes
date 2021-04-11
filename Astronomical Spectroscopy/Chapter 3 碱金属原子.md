@@ -34,8 +34,8 @@
 
 - 主要在光学波段
 - 主线系 ( **P**rinciple series，双线 )，高级的 p 到 3s——最重要：钠双线
-- 锐线系􏰑 ( **S**harp series􏰈􏰌􏰕􏰒，双线 )，高级的 s 到 3p
-- 弥散线系 ( 􏰑**D**iffuse series􏰈􏰆􏰕􏰒，三线 )，高级的 d 到 3p
+- 锐线系􏰑 ( **S**harp series，双线 )，高级的 s 到 3p
+- 弥散线系 ( **D**iffuse series，三线 )，高级的 d 到 3p
 - 基本线系 ( **F**undamental series，三线 )，高级的 f 到 3d
 
 ## 精细结构
@@ -49,7 +49,7 @@
 
 - 最重要：**自旋磁矩**和**电子轨道运动**产生的磁场的相互作用
   $$
-  \boldsymbol{\mu}_{s}=-2 \frac{\mu_{\mathrm{B}}}{\hbar} \mathbf{s},\text{ where } \mu_{\mathrm{B}}=\frac{e \hbar}{2 m_{e}}
+  \boldsymbol{\mu}_{s}=-2 \frac{\mu_{\mathrm{B}}}{\hbar} \mathbf{s}, { where } \mu_{\mathrm{B}}=\frac{e \hbar}{2 m_{e}}
   $$
 
 ### 电子轨道运动产生的磁场
