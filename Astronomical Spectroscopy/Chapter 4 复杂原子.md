@@ -80,7 +80,7 @@ $$
 #### 双电子原子的波函数
 
 $$
-\psi(1,2)=\frac{1}{\sqrt{2}}\left[\phi_{a}(1) {\phi}_{b}(2)-\phi_{a}(2) \phi_{b}(1)\right]
+\psi(1,2)=\frac{1}{\sqrt{2}}\left[\phi_{a}(1) {\phi}{b}(2)-\phi_{a}(2) \phi_{b}(1)\right]
 $$
 
 - $\phi_a=\phi_b\Rightarrow\psi(1,2)=0$ ，两个电子的波函数不可能相同——Pauli 不相容原理
@@ -218,9 +218,9 @@ $$
 
 - 正常情形：壳层中电子数目**少于**满壳层电子数的一半
 - 反转情形：壳层中电子数目**多于**满壳层电子数的一半
-- $\ce{CI}$ 基态：$^3P_0$ 最低，$^3P_2$ 最高，$\ce{OI}$ 基态则相反
+- ${CI}$ 基态：$^3P_0$ 最低，$^3P_2$ 最高，${OI}$ 基态则相反
 
-![以 $\ce{CI}$ 为例的示意图](/Users/chang/Desktop/天体光谱学/fig/Hund Rule.jpeg)
+![以 ${CI}$ 为例的示意图](/Users/chang/Desktop/天体光谱学/fig/Hund Rule.jpeg)
 
 ## 氦原子光谱
 
