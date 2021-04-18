@@ -10,7 +10,7 @@ $$
 
 - 电子动能：$-\frac{\hbar^{2}}{2 m} \nabla_{i}^{2}$
 - 电子-原子核库伦吸引势：$-\frac{Z e^{2}}{4 \pi \varepsilon_{0} r_{i}}$
-- 电子之间库伦排斥势：$\sum_{i=1}^{N-1} \sum_{j=i+1}^{N} \frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}{i}-{r}{j}\right|$
+- 电子之间库伦排斥势：$\sum_{i=1}^{N-1} \sum_{j=i+1}^{N} \frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}{i}-\mathbf{r}{j}\right|}$
 
 无法解析求解
 
