@@ -5,7 +5,7 @@
 ### 复杂原子的薛定谔方程
 
 $$
-\left{\sum_{i=1}^{N} \left[-\frac{\hbar^{2}}{2 m} \nabla_{i}^{2}-\frac{Z e^{2}}{4 \pi \varepsilon_{0} r_{i}}\right]+\sum_{i=1}^{N-1} \sum_{j=1+1}^{N} \frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}{i}-\mathbf{r}{j}\right|}-E\right} \psi\left(\mathbf{r}{1} {r}{2} \ldots \mathbf{r}{N}\right)=0
+\left\{\sum_{i=1}^{N} \left[-\frac{\hbar^{2}}{2 m} \nabla_{i}^{2}-\frac{Z e^{2}}{4 \pi \varepsilon_{0} r_{i}}\right]+\sum_{i=1}^{N-1} \sum_{j=1+1}^{N} \frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}{i}-\mathbf{r}{j}\right|}-E\right\} \psi\left(\mathbf{r}{1} {r}{2} \ldots \mathbf{r}{N}\right)=0
 $$
 
 - 电子动能：$-\frac{\hbar^{2}}{2 m} \nabla_{i}^{2}$
