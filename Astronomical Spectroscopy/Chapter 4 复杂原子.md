@@ -18,7 +18,7 @@ $$
 
 - 假设电子 $i$ 在球对称的中心力场 $V_i(r_i)$ 中运动
   $$
-  \left[-\frac{\hbar^{2}}{2 m} \nabla_{i}^{2}+V_{i}\left(r_{i}\right)\right] \phi_{i}\left(\mathbf{r}_{i}\right)=E_{i} \phi_{i}\left(\mathbf{r}_{i}\right)
+  \left[-\frac{\hbar^{2}}{2 m} \nabla_{i}^{2}+V_{i}\left(r_{i}\right)\right] \phi_{i}\left(\mathbf{r}{i}\right)=E_{i} \phi_{i}\left(\mathbf{r}{i}\right)
   $$
   系统总能量为
   $$
@@ -29,7 +29,7 @@ $$
 
 - 一般选择的中心力场是假设电子 $i$ 在所有其他电子和原子核构成的平均力场中运动
   $$
-  V_{i}\left(r_{i}\right)=-\frac{Z e^{2}}{4 \pi \varepsilon_{0} r_{i}}+\sum_{j \neq i}\left\langle\frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}_{i}-\mathbf{r}_{j}\right|}\right\rangle
+  V_{i}\left(r_{i}\right)=-\frac{Z e^{2}}{4 \pi \varepsilon_{0} r_{i}}+\sum_{j \neq i}\left\langle\frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}{i}-\mathbf{r}{j}\right|}\right\rangle
   $$
 
 ### 多电子原子的电势
@@ -49,7 +49,7 @@ $$
 #### 中心力场模型下电子的波函数
 
 $$
-\phi_{i}\left(\mathbf{r}_{i}\right)=R_{n_{l} l_{i}}\left(r_{i}\right) Y_{l, m_{i}}\left(\theta_{i}, \phi_{i}\right)
+\phi_{i}\left(\mathbf{r}{i}\right)=R_{n_{l} l_{i}}\left(r_{i}\right) Y_{l, m_{i}}\left(\theta_{i}, \phi_{i}\right)
 $$
 
 - 与角度有关的部分不依赖于其他电子位置，但径向波函数依赖于其他电子的位置——数值求解
@@ -58,12 +58,12 @@ $$
 #### 中心力场模型下的系统波函数
 
 $$
-\psi\left(\mathbf{r}_{1}, \mathbf{r}_{2}, \ldots, \mathbf{r}_{N}\right)=\phi_{1}\left(\mathbf{r}_{1}\right) \phi_{2}\left(\mathbf{r}_{2}\right) \ldots \phi_{N}\left(\mathbf{r}_{N}\right)
+\psi\left(\mathbf{r}_{1}, \mathbf{r}_{2}, \ldots, \mathbf{r}_{N}\right)=\phi_{1}\left(\mathbf{r}{1}\right) \phi_{2}\left(\mathbf{r}{2}\right) \ldots \phi_{N}\left(\mathbf{r}{N}\right)
 $$
 
 - 此表达式忽略了电子是全同粒子，需要引入自旋以示区分
   $$
-  \phi_{i}(i)=\phi_{i}\left(\mathbf{r}_{i}, \sigma_{i}\right)
+  \phi_{i}(i)=\phi_{i}\left(\mathbf{r}{i}, \sigma_{i}\right)
   $$
 
 - 在非相对论条件下，忽略自旋-轨道相互作用，系统能量与最上面式子给出的能量一样
