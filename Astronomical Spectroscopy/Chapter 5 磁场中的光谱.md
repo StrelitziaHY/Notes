@@ -115,7 +115,7 @@ $$
     \Delta E=\Delta E_S+\Delta E_L=\mu_BB(M_L+2S_z)
     $$
 
-- 例：$\ce{OI}$ 1s$^2$2s$^2$2p$^4$ 的一个态 $^3\text{P}$ 在强磁场（10 T 以上）下的情形
+- 例：${OI}$ 1s$^2$2s$^2$2p$^4$ 的一个态 $^3\text{P}$ 在强磁场（10 T 以上）下的情形
 
   - $L=1\Rightarrow M_L=-1,0,1$
   - $S=1\Rightarrow S_z=-1,0,1$
@@ -144,7 +144,7 @@ $$
 ### 反常 Zeeman 效应
 
 - 多重态：$S\neq0$
-- 例：$\ce{OI}$ 的基态 $^3\text{P}_2$
+- 例：${OI}$ 的基态 $^3\text{P}_2$
   - $S=1,\ L=1,\ J=2,\ M_J=-2,-1,0,1,2$
   - $g=\frac{3}{2}$，能级间隔 $\frac{3}{2}\mu_BB$
   - 取 $B=0.1\text{ T}$，能级间隔 $8.7\times10^{-6}\text{ eV}$，波数 $0.07\text{ cm}^{-1}$，当 $\lambda=5000\ \overset{\circ}{\text{A}}$ 时，$\Delta\lambda=0.0175\ \overset{\circ}{\text{A}}$ 
