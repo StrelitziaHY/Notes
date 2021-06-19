@@ -202,7 +202,7 @@ $$
   \Delta\frac1\lambda=-L,0,L
   $$
 
-- 例：反常 Zeeman 效应（钠双线），$\text{NaI}\ ^2\text{P}{3/2,1/2}\to\ ^2\text{S}_{1/2}$ 
+- 例：反常 Zeeman 效应（钠双线），$\text{NaI}\ ^2\text{P}_{3/2,1/2}\to\ ^2\text{S}_{1/2}$ 
 
   - $^2\text{P}_{3/2},\ S=\frac12,\ L=1,\ J=\frac32\Rightarrow\ g=\frac43,\  M_J=-\frac32,-\frac12,\frac12,\frac32$
   - $^2\text{P}_{1/2},\ S=\frac12,\ L=1,\ J=\frac12\Rightarrow\ g=\frac23,\  M_J=-\frac12,\frac12$
@@ -220,7 +220,7 @@ $$
   
   共 6 种跃迁，分为 6 层，其中原位置光谱消失
   
-  - $^2{P}_{1/2}\to\ ^2{S}_{1/2}$
+  - $^2\text{P}_{1/2}\to\ ^2\text{S}_{1/2}$
   
   | $g_2M_2$ | $g_1M_1$ | $\Delta gM$ |   偏振   |
   | :------: | :------: | :---------: | :------: |
