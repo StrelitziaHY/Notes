@@ -94,8 +94,7 @@
 
     - 电子的轨道波函数对核轴的中点反射对称——偶，电子倾向于在两核之间运动，将两核拉住；反射反对称——奇，电子倾向于在两核外围运动，将两核拉开
       $$
-      \psi(\vec {R_A}, \vec {R_B})\to \psi(-\vec {R_A}, -\vec {R_B})\Rightarrow \left|\psi(\vec {R_A}, \vec {R_B})\right|^2= \left|\psi(-\vec {R_A}, -\vec {R_B})\right|^2\\
-      \Rightarrow \psi(\vec {R_A}, \vec {R_B})=\pm \psi(-\vec {R_A}, -\vec {R_B})=\left\{
+      \psi(\vec {R_A}, \vec {R_B})=\pm \psi(-\vec {R_A}, -\vec {R_B})=\left\{
       \begin{array}{l}+: \ \text{ g(gerade) - oven}\\
       -:\text{ u(ungerade) - odd}\end{array}\right.
       $$
@@ -289,7 +288,7 @@
 
   - Morse 势
     $$
-    V=D_{\mathrm{eq}}\left\{1-\exp \left[a\left(r_{0}-r\right)\right]\right\}^{2}
+    V=D_{\mathrm{eq}}\left\{1-\exp \left[a \left(r_{0}-r\right) \right]\right\}^{2}
     $$
 
     - 振动能级
