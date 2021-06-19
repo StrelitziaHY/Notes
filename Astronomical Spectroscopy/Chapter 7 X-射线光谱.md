@@ -103,7 +103,7 @@
   $$
   因此
   $$
-  T=\frac{1}{2 M}\left({\sum} \vec{p}_i\right)^{2}+\frac{1}{2 m_{e}} \sum p_{i}^{2}\\
+  T=\frac{1}{2 M}\left({\sum} \vec{p}i\right)^{2}+\frac{1}{2 m_{e}} \sum p_{i}^{2}\\
   =\frac{M+m_e}{2Mm_e}\sum p_i^2+\frac1M\sum\vec p_i\cdot\vec p_j\\
   =\frac{1}{2\mu}\sum p_i^2+\frac1M\sum\vec p_i\cdot\vec p_j
   $$
