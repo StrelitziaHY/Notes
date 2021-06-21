@@ -37,8 +37,8 @@
   $$
   \begin{align*}
   \mu_j&=\mu_l\cos\langle l,j\rangle+\mu_s\cos\langle s,j\rangle\\
-  &=\frac e{2m}(P_l\cos\langle l,j\rangle+2P_s\cos\langle l,j\rangle)\\
-  &=\frac e{2m}\left(\frac{P_s^2+P_j^2-P_l^2}{2P_j}+\frac{P_l^2+P_j^2-P_s^2}{P_j}\right)\\
+  &=\frac e{2m}(P_l\cos\langle l,j\rangle+2P_s\cos\langle s,j\rangle)\\
+  &=\frac e{2m}\left(\frac{P_l^2+P_j^2-P_s^2}{2P_j}+\frac{P_s^2+P_j^2-P_l^2}{P_j}\right)\\
   &=\frac{e}{2m}P_j\left(1+\frac{P_j^2+P_s^2-P_l^2}{2P_j^2}\right)\\
   &\equiv g\cdot\frac{e}{2m}P_j=g\cdot\frac{\mu_B}{\hbar}P_j
   \end{align*}
