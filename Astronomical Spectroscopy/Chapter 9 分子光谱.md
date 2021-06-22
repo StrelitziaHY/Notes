@@ -178,7 +178,7 @@
 
     - 电子静电势能
       $$
-      V_{\mathrm{ee}}=\sum_{i<j} \frac{e^{2}}{4 \pi \varepsilon_{0}\left|\mathbf{r}_{i}-\mathbf{r}_{j}\right|}
+      V_{\mathrm{ee}}=\sum_{i<j} \frac{e^{2}}{4 \pi \varepsilon_{0}\left|{r}_{i}-{r}_{j}\right|}
       $$
 
     - 电子与原子核静电势能
