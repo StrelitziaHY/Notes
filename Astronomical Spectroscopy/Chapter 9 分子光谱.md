@@ -287,7 +287,7 @@
 
   - Morse 势
     $$
-    V=D_{\mathrm{eq}}\left\{1-e^{a \left(r_{0}-r\right)} \right\}^{2}
+    V=D_{\mathrm{eq}}\left[1-e^{a \left(r_{0}-r\right)} \right]^{2}
     $$
 
     - 振动能级
